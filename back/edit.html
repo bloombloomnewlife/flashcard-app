@@ -4,20 +4,8 @@
   <meta charset="UTF-8">
   <title>Edit Flashcards</title>
   <style>
-    textarea, input {
-      margin: 5px;
-      padding: 5px;
-    }
-    .card-row {
-      display: flex;
-      align-items: center;
-      margin: 5px 0;
-    }
-    #top-buttons {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
+    textarea, input { margin: 5px; padding: 5px; }
+    .card-row { display: flex; align-items: center; margin: 5px 0; }
   </style>
 </head>
 <body>
@@ -28,14 +16,8 @@
   </div>
 
   <div id="editor" style="display:none;">
-    <div id="top-buttons">
-      <button onclick="save()">Save Changes</button>
-      <button onclick="window.location.href='index.html'">Back to Cards</button>
-    </div>
-
     <h3>Upload CSV</h3>
     <input type="file" id="csvInput" accept=".csv" />
-
     <h3>Add New Card</h3>
     <input id="newFront" placeholder="Front" />
     <input id="newBack" placeholder="Back" />
@@ -47,6 +29,9 @@
     <button onclick="deleteSelected()">Delete Selected</button>
 
     <div id="cardList"></div>
+    <br>
+    <button onclick="save()">Save Changes</button>
+    <button onclick="window.location.href='index.html'">Back to Cards</button>
   </div>
 
   <script src="edit.js"></script>

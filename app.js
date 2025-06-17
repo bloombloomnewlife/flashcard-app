@@ -4,6 +4,7 @@ let showingFront = true;
 const card = document.getElementById("flashcard");
 
 function speakText(text) {
+  speechSynthesis.cancel(); // 音声を止める
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = /[ぁ-んァ-ン一-龥]/.test(text) ? "ja-JP" : "en-US";
   speechSynthesis.speak(utterance);

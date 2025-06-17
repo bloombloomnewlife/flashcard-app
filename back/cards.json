@@ -1,5 +1,962 @@
 [
-  { "front": "Apple", "back": "りんご" },
-  { "front": "Dog", "back": "犬" },
-  { "front": "Book", "back": "本" }
+  {
+    "front": "コンピューター技術",
+    "back": "Computer skills"
+  },
+  {
+    "front": "あなたに力を与える",
+    "back": "empower you"
+  },
+  {
+    "front": "未来を切り開く",
+    "back": "shape a better future"
+  },
+  {
+    "front": "構成されている",
+    "back": "is designed"
+  },
+  {
+    "front": "体系的な導入",
+    "back": "structured introduction"
+  },
+  {
+    "front": "基本的な知識",
+    "back": "essential knowledge"
+  },
+  {
+    "front": "コンピューターの操作技術",
+    "back": "skills needed to use a computer"
+  },
+  {
+    "front": "の構成",
+    "back": "the components of"
+  },
+  {
+    "front": "ネットワークの基本",
+    "back": "the basics of networking"
+  },
+  {
+    "front": "診断する",
+    "back": "diagnose"
+  },
+  {
+    "front": "工夫されている",
+    "back": "is arranged to"
+  },
+  {
+    "front": "理解できるように",
+    "back": "build your knowledge"
+  },
+  {
+    "front": "難しく感じるかもしれない",
+    "back": "may seem challenging"
+  },
+  {
+    "front": "できることが増える",
+    "back": "your abilities will grow"
+  },
+  {
+    "front": "教材を読み進めるうちに",
+    "back": "progress through the material"
+  },
+  {
+    "front": "就職の可能性を広げる",
+    "back": "expand your employment opportunities"
+  },
+  {
+    "front": "未来に導く",
+    "back": "lead to a future"
+  },
+  {
+    "front": "一歩ずつ",
+    "back": "one step at a time"
+  },
+  {
+    "front": "着実に学ぶ",
+    "back": "learn steadily"
+  },
+  {
+    "front": "目次",
+    "back": "Table of Contents"
+  },
+  {
+    "front": "PCの基礎知識",
+    "back": "Basic Knowledge of PC"
+  },
+  {
+    "front": "ハードウェアの基本",
+    "back": "Fundamentals of Hardware"
+  },
+  {
+    "front": "PCの種類",
+    "back": "Types of PCs"
+  },
+  {
+    "front": "入出力機器",
+    "back": "Input/Output Devices"
+  },
+  {
+    "front": "通信のつながる仕組み",
+    "back": "How Network Communication Works"
+  },
+  {
+    "front": "その構成の役割",
+    "back": "the roles of its components"
+  },
+  {
+    "front": "私たちは（範囲を）取り扱う",
+    "back": "We will cover"
+  },
+  {
+    "front": "サービスを可能にする",
+    "back": "how networks enable services"
+  },
+  {
+    "front": "理解しやすい方法で",
+    "back": "in an easy-to-understand way"
+  },
+  {
+    "front": "スムーズに理解できるようになる",
+    "back": "be better prepared to understand"
+  },
+  {
+    "front": "基本的なスキルを身に着ける",
+    "back": "gain the fundamental skills"
+  },
+  {
+    "front": "正確な故障修理のスキル",
+    "back": "skills for precise troubleshooting"
+  },
+  {
+    "front": "基礎をしっかり押さえる",
+    "back": "mastering the basics"
+  },
+  {
+    "front": "次のステップへの準備をする",
+    "back": "are ready for the next steps"
+  },
+  {
+    "front": "それぞれの（別れた）役割から成る",
+    "back": "It consists of separate components"
+  },
+  {
+    "front": "優れた拡張性を提供する",
+    "back": "it offers excellent expandability"
+  },
+  {
+    "front": "に特に適している",
+    "back": "It is particularly suitable for"
+  },
+  {
+    "front": "高い処理能力",
+    "back": "high processing power"
+  },
+  {
+    "front": "ビデオ編集",
+    "back": "video editing"
+  },
+  {
+    "front": "ノートのように折りたたまれて",
+    "back": "be folded like a notebook"
+  },
+  {
+    "front": "どこでも持ち運べる",
+    "back": "carried anywhere"
+  },
+  {
+    "front": "主な特徴は",
+    "back": "Its main feature is that"
+  },
+  {
+    "front": "一つにまとまっている",
+    "back": "all in one unit"
+  },
+  {
+    "front": "ユーザにさせることができる",
+    "back": "allowing users to"
+  },
+  {
+    "front": "簡単に持ち運べる",
+    "back": "for easy transport"
+  },
+  {
+    "front": "ユーザが直感的に操作できる",
+    "back": "Users can operate it intuitively by"
+  },
+  {
+    "front": "の間で親しまれる",
+    "back": "making it popular among"
+  },
+  {
+    "front": "時に脳と言われている",
+    "back": "\"is often described as the \"\"brain\"\"\""
+  },
+  {
+    "front": "指示を解釈する",
+    "back": "It interprets instructions"
+  },
+  {
+    "front": "計算と論理的な決定を実行する",
+    "back": "carries out calculations and logical decisions"
+  },
+  {
+    "front": "他の部位に命令を出す",
+    "back": "sends commands to other components"
+  },
+  {
+    "front": "コンピューターの性能と速さ",
+    "back": "The performance and speed of a computer"
+  },
+  {
+    "front": "CPUの性能に大きく依存する",
+    "back": "rely heavily on the CPU’s capabilities"
+  },
+  {
+    "front": "複数のアプリを同時に使う",
+    "back": "using multiple applications at the same time"
+  },
+  {
+    "front": "大きく複雑なデータを処理する",
+    "back": "processing large and complex data"
+  },
+  {
+    "front": "高性能なCPUを必要とする",
+    "back": "requires a high-performance CPU"
+  },
+  {
+    "front": "CPUの主な指標",
+    "back": "Key indicators of CPU"
+  },
+  {
+    "front": "クロック周波数",
+    "back": "clock speed"
+  },
+  {
+    "front": "コア数",
+    "back": "number of cores"
+  },
+  {
+    "front": "全てにおいて不可欠である",
+    "back": "essential for everything"
+  },
+  {
+    "front": "日々の動作",
+    "back": "basic tasks"
+  },
+  {
+    "front": "動作しているプログラム",
+    "back": "programmes that are actively being used"
+  },
+  {
+    "front": "コンピューターが動いている間",
+    "back": "while the computer is running"
+  },
+  {
+    "front": "作業台の大きさに例えられる",
+    "back": "It can be thought of as the size of a workbench"
+  },
+  {
+    "front": "RAMが大きいほど多くの作業が",
+    "back": "\"the larger the RAM"
+  },
+  {
+    "front": "コンピューターがスムーズに動く",
+    "back": "the computer can handle smoothly"
+  },
+  {
+    "front": "例えば",
+    "back": "For instance"
+  },
+  {
+    "front": "いくつかのブラウザーのタブを開く",
+    "back": "opening several browser tabs"
+  },
+  {
+    "front": "画像編集ソフトを使う",
+    "back": "running image editing software"
+  },
+  {
+    "front": "RAMの不足",
+    "back": "insufficient RAM"
+  },
+  {
+    "front": "動作が重くなる",
+    "back": "cause the system to slow down"
+  },
+  {
+    "front": "保存されているものが完全に消える",
+    "back": "its contents are completely cleared"
+  },
+  {
+    "front": "記憶装置",
+    "back": "storage devices"
+  },
+  {
+    "front": "大容量の保存領域を提供する",
+    "back": "offering large storage capacities"
+  },
+  {
+    "front": "比較的安価",
+    "back": "at a relatively low cost"
+  },
+  {
+    "front": "そのデータ読み書きは比較的遅い",
+    "back": "its data read/write speed is comparatively slower"
+  },
+  {
+    "front": "一方で",
+    "back": "on the other hand"
+  },
+  {
+    "front": "時間を大幅に短縮する",
+    "back": "significantly reducing the time"
+  },
+  {
+    "front": "最近のPCでは主流になっている",
+    "back": "become the standard in most modern computers"
+  },
+  {
+    "front": "実際に",
+    "back": "In practice"
+  },
+  {
+    "front": "SSDは通常スピード面で選択される",
+    "back": "SSD is typically chosen for speed"
+  },
+  {
+    "front": "HDDが好まれる",
+    "back": "HDD is preferred"
+  },
+  {
+    "front": "GPUは部品である",
+    "back": "GPU (Graphics Processing Unit) is a component"
+  },
+  {
+    "front": "一般的なパソコン作業において",
+    "back": "For general computing tasks"
+  },
+  {
+    "front": "CPUに内蔵された簡易的な（統合された）GPU",
+    "back": "the integrated GPU found within most CPUs"
+  },
+  {
+    "front": "通常は十分である",
+    "back": "is usually sufficient"
+  },
+  {
+    "front": "高性能な専用のGPU",
+    "back": "high-performance dedicated GPUs"
+  },
+  {
+    "front": "必要不可欠だ",
+    "back": "are essential for"
+  },
+  {
+    "front": "集中的な画像処理",
+    "back": "intensive visual processing"
+  },
+  {
+    "front": "GPUを搭載することで滑らかな画像処理が可能になる",
+    "back": "Having a GPU enables smoother rendering"
+  },
+  {
+    "front": "高画質な画面表示",
+    "back": "high-quality display output"
+  },
+  {
+    "front": "近年では",
+    "back": "In recent years"
+  },
+  {
+    "front": "GPUの能力は活用されている",
+    "back": "GPU power has also been utilised"
+  },
+  {
+    "front": "画像処理以外で（を超えて）",
+    "back": "beyond graphics processing"
+  },
+  {
+    "front": "AI開発において",
+    "back": "in artificial intelligence (AI) development"
+  },
+  {
+    "front": "マザーボードは主要な基板です",
+    "back": "Motherboard is the main circuit board"
+  },
+  {
+    "front": "お互いにやり取りさせる",
+    "back": "allows them to communicate with each other"
+  },
+  {
+    "front": "CPUやRAMなどの主なパーツ",
+    "back": "\"Key parts such as the CPU"
+  },
+  {
+    "front": "音声出力端子",
+    "back": "audio jacks"
+  },
+  {
+    "front": "マザーボードは端子も搭載している",
+    "back": "The motherboard also includes ports"
+  },
+  {
+    "front": "外部機器との接続に使われる",
+    "back": "are used to link external devices"
+  },
+  {
+    "front": "性能と規格",
+    "back": "The performance and specification"
+  },
+  {
+    "front": "パーツの種類と数を決定する",
+    "back": "determine the types and number of components"
+  },
+  {
+    "front": "取り付けられる（サポートする）パーツ",
+    "back": "components it can support"
+  },
+  {
+    "front": "このため",
+    "back": "For this reason"
+  },
+  {
+    "front": "マザーボードは重要なパーツだ",
+    "back": "the motherboard is a crucial part"
+  },
+  {
+    "front": "大きく影響する",
+    "back": "significantly affects"
+  },
+  {
+    "front": "拡張性と将来性",
+    "back": "expandability and future compatibility"
+  },
+  {
+    "front": "バッテリーは必要な電源装置だ",
+    "back": "Battery is an essential power source"
+  },
+  {
+    "front": "コンピューターを駆動させる",
+    "back": "allows a computer to operate"
+  },
+  {
+    "front": "コンセント",
+    "back": "power outlet"
+  },
+  {
+    "front": "バッテリー内蔵の",
+    "back": "include built-in batteries"
+  },
+  {
+    "front": "持ち運びながら使用できる",
+    "back": "enabling users to work while on the move"
+  },
+  {
+    "front": "バッテリーの駆動時間",
+    "back": "The duration for which a battery can power a device"
+  },
+  {
+    "front": "タイプによって異なる",
+    "back": "varies depending on the type"
+  },
+  {
+    "front": "バッテリーの容量",
+    "back": "capacity of the battery"
+  },
+  {
+    "front": "時間の経過とともに",
+    "back": "Over time"
+  },
+  {
+    "front": "バッテリーの性能は要因によって低下する",
+    "back": "a battery's performance declines due to factors"
+  },
+  {
+    "front": "使用法と充電回数",
+    "back": "usage habits and the number of charging cycles"
+  },
+  {
+    "front": "適切な管理とメンテナンス",
+    "back": "with proper care and maintenance"
+  },
+  {
+    "front": "その寿命を延ばすことができる",
+    "back": "its lifespan can be extended"
+  },
+  {
+    "front": "重要なパーツ",
+    "back": "vital component"
+  },
+  {
+    "front": "電気が使えない",
+    "back": "without access to electricity"
+  },
+  {
+    "front": "コンピュータは備えている",
+    "back": "Computers are equipped with"
+  },
+  {
+    "front": "異なる種類の情報交換の処理",
+    "back": "handling different types of information exchange"
+  },
+  {
+    "front": "ユーザが指示と情報をコンピューターに伝えられる",
+    "back": "allow users to send instructions and data to the computer"
+  },
+  {
+    "front": "コンピューターの処理結果を伝える",
+    "back": "present the computer's processed results"
+  },
+  {
+    "front": "見せたり聞かせたりして",
+    "back": "through visuals or sound"
+  },
+  {
+    "front": "これらの装置はスムーズにする",
+    "back": "These devices enable smooth"
+  },
+  {
+    "front": "人とコンピュータのコミュニケーション",
+    "back": "between humans and computers"
+  },
+  {
+    "front": "自然に効率的な方法で入力し提供する",
+    "back": "entered and delivered in a natural and efficient manner"
+  },
+  {
+    "front": "コンピューターに保存または処理された",
+    "back": "stored or processed in the computer"
+  },
+  {
+    "front": "コンピューター用に特化して作られている",
+    "back": "it is designed specifically for computer use"
+  },
+  {
+    "front": "モニターには様々な大きさや解像度がある",
+    "back": "Monitors come in various sizes and resolutions"
+  },
+  {
+    "front": "見やすさや作業効率に影響する",
+    "back": "affect ease of viewing and working efficiency"
+  },
+  {
+    "front": "文字や数字や記号などを入力するため",
+    "back": "\"to input letters"
+  },
+  {
+    "front": "多くのボタンで構成される",
+    "back": "It consists of many buttons"
+  },
+  {
+    "front": "情報をコンピューターに送る",
+    "back": "you can send information to a computer"
+  },
+  {
+    "front": "文章を書き、ファイル名を入力する",
+    "back": "\"write documents"
+  },
+  {
+    "front": "日本語の英語の入力を切り替える",
+    "back": "switch between Japanese and English input"
+  },
+  {
+    "front": "毎日の作業",
+    "back": "everyday tasks"
+  },
+  {
+    "front": "マウスは操作するための装置",
+    "back": "A mouse is a device used to contro"
+  },
+  {
+    "front": "画面上のカーソル（矢印）",
+    "back": "cursor (arrow) on the screen"
+  },
+  {
+    "front": "カーソルを動かして",
+    "back": "By moving the cursor"
+  },
+  {
+    "front": "文字を選ぶ",
+    "back": "select text"
+  },
+  {
+    "front": "右クリックとスクロールホイール",
+    "back": "a right-click button and a scroll wheel"
+  },
+  {
+    "front": "パソコン操作をより便利にする",
+    "back": "make computer operation more convenient"
+  },
+  {
+    "front": "直感的で初心者にも簡単",
+    "back": "It is intuitive and easy to use for beginners"
+  },
+  {
+    "front": "ほとんどのノートパソコンに搭載されている入力装置",
+    "back": "an input device found on most laptop computers"
+  },
+  {
+    "front": "指で操作して",
+    "back": "is operated by fingers"
+  },
+  {
+    "front": "することができる",
+    "back": "allowing you to"
+  },
+  {
+    "front": "マウスのように",
+    "back": "Like a mouse / Similar to a mouse"
+  },
+  {
+    "front": "狭い場所でも使いやすい",
+    "back": "it is especially useful in confined spaces"
+  },
+  {
+    "front": "音質を重視する",
+    "back": "sound quality is prioritised"
+  },
+  {
+    "front": "スピーカーは需要な役割を果たす",
+    "back": "Speakers play an important role"
+  },
+  {
+    "front": "様々な場面で",
+    "back": "in various situations"
+  },
+  {
+    "front": "ヘッドホンとマイクを一体化した",
+    "back": "combines headphones and a microphone  in one unit"
+  },
+  {
+    "front": "通話",
+    "back": "phone calls"
+  },
+  {
+    "front": "周囲の雑音に邪魔されることなく",
+    "back": "without being disturbed by surrounding noise"
+  },
+  {
+    "front": "多くのモデルがある",
+    "back": "more models are available"
+  },
+  {
+    "front": "USBやBluetooth接続の",
+    "back": "connect via USB or Bluetooth"
+  },
+  {
+    "front": "パソコンの画面に姿を映す",
+    "back": "display your image on a computer screen"
+  },
+  {
+    "front": "通常外付けのものが必要",
+    "back": "typically require an external one"
+  },
+  {
+    "front": "同時に送信する",
+    "back": "to be transmitted simultaneously"
+  },
+  {
+    "front": "紙に文章や写真をプリントする",
+    "back": "prints documents or photographs onto paper"
+  },
+  {
+    "front": "仕事の資料を出力できるようにする",
+    "back": "It enables you to produce work materials"
+  },
+  {
+    "front": "様々なタイプがある",
+    "back": "There are various types available"
+  },
+  {
+    "front": "必要に応じて",
+    "back": "depending on your needs"
+  },
+  {
+    "front": "複合機",
+    "back": "all-in-one models"
+  },
+  {
+    "front": "一般的で広く使われる",
+    "back": "become common and are widely used"
+  },
+  {
+    "front": "壁やスクリーンに拡大表示する",
+    "back": "onto a wall or screen in a larger format"
+  },
+  {
+    "front": "複数人に",
+    "back": "multiple people"
+  },
+  {
+    "front": "授業",
+    "back": "lessons"
+  },
+  {
+    "front": "拡大して映し出す",
+    "back": "It enlarges and projects"
+  },
+  {
+    "front": "HDMIやVGAケーブルでつないで",
+    "back": "as it is via an HDMI or VGA cable"
+  },
+  {
+    "front": "持ち運べてWi-Fi接続できるモデル",
+    "back": "portable and Wi-Fi-enabled models"
+  },
+  {
+    "front": "登場している",
+    "back": "become available"
+  },
+  {
+    "front": "様々な場面で",
+    "back": "in various settings"
+  },
+  {
+    "front": "ディスクに読み書きする",
+    "back": "reads and writes data to discs"
+  },
+  {
+    "front": "一般的に使われる",
+    "back": "It was commonly used"
+  },
+  {
+    "front": "今日では",
+    "back": "\"Nowadays"
+  },
+  {
+    "front": "もはやメディアドライブを内蔵していない",
+    "back": "no longer include built-in media drives"
+  },
+  {
+    "front": "このような場合",
+    "back": "\"In such cases"
+  },
+  {
+    "front": "USB接続",
+    "back": "connected via USB"
+  },
+  {
+    "front": "近年では",
+    "back": "\"Over the years"
+  },
+  {
+    "front": "クラウド",
+    "back": "cloud storage"
+  },
+  {
+    "front": "主流になっている",
+    "back": "become more mainstream"
+  },
+  {
+    "front": "ディスクを必要とする作業には",
+    "back": "for tasks requiring discs"
+  },
+  {
+    "front": "メディアドライブはまだ必要",
+    "back": "media drives are still essential"
+  },
+  {
+    "front": "USBメモリー",
+    "back": "A USB memory stick"
+  },
+  {
+    "front": "データを保存して持ち歩くために使う",
+    "back": "used for saving and transporting data"
+  },
+  {
+    "front": "USBポートにさすだけで使える",
+    "back": "You simply plug it into a USB port to use it"
+  },
+  {
+    "front": "様々な種類のファイルを保存できる",
+    "back": "you can store various files on it"
+  },
+  {
+    "front": "軽くて持ち運びやすい",
+    "back": "\"It is lightweight"
+  },
+  {
+    "front": "データを共有するのに便利",
+    "back": "convenient for sharing data"
+  },
+  {
+    "front": "ストレージの容量は製品によって異なる",
+    "back": "\"Storage capacity varies by product"
+  },
+  {
+    "front": "あなたのニーズに合った",
+    "back": "to suit your needs"
+  },
+  {
+    "front": "ソフトウェアのセット",
+    "back": "a suite of software"
+  },
+  {
+    "front": "文書作成、表計算",
+    "back": "\"word processing"
+  },
+  {
+    "front": "文書作成のためのWord",
+    "back": "Word for writing documents"
+  },
+  {
+    "front": "プレゼンテーション資料",
+    "back": "presentation materials"
+  },
+  {
+    "front": "幅広い場面で使われる",
+    "back": "It is widely used in various settings"
+  },
+  {
+    "front": "会社や学校で",
+    "back": "business and education"
+  },
+  {
+    "front": "これらのツールに熟練することは見なされる",
+    "back": "proficiency in these tools is considered"
+  },
+  {
+    "front": "クラウド対応型のOffice365",
+    "back": "the cloud-based version known as Office 365"
+  },
+  {
+    "front": "一般的になっている",
+    "back": "has also become popular"
+  },
+  {
+    "front": "文字の入力や装飾ができる",
+    "back": "It enables users to enter and format text"
+  },
+  {
+    "front": "レイアウトを整える",
+    "back": "adjust the layout"
+  },
+  {
+    "front": "仕事では",
+    "back": "In the workplace"
+  },
+  {
+    "front": "会議資料",
+    "back": "meeting materials"
+  },
+  {
+    "front": "履歴書",
+    "back": "curriculum vitae"
+  },
+  {
+    "front": "誰でも整った文章を簡単に作れる",
+    "back": "anyone can easily create well-structured documents"
+  },
+  {
+    "front": "印刷にも対応しているので",
+    "back": "As it also supports printing"
+  },
+  {
+    "front": "数値入力",
+    "back": "input values"
+  },
+  {
+    "front": "並び変え",
+    "back": "sort data"
+  },
+  {
+    "front": "仕事では",
+    "back": "In the workplace"
+  },
+  {
+    "front": "あらゆる業務で使われる",
+    "back": "it is used for various tasks"
+  },
+  {
+    "front": "売上表",
+    "back": "sales tables"
+  },
+  {
+    "front": "勤怠管理表",
+    "back": "employee attendance tracking"
+  },
+  {
+    "front": "在庫リスト",
+    "back": "inventory lists"
+  },
+  {
+    "front": "予算表",
+    "back": "budget sheets"
+  },
+  {
+    "front": "データ分析",
+    "back": "data analysis"
+  },
+  {
+    "front": "効率よく正確に作業を進めるため",
+    "back": "As it enables efficient and accurate work"
+  },
+  {
+    "front": "スライドを用いて情報を明確に伝える",
+    "back": "present information clearly using slides"
+  },
+  {
+    "front": "図",
+    "back": "diagrams"
+  },
+  {
+    "front": "仕事では",
+    "back": "In the workplace"
+  },
+  {
+    "front": "会議の発表",
+    "back": "presentations in meetings"
+  },
+  {
+    "front": "商品説明",
+    "back": "product explanations"
+  },
+  {
+    "front": "規格提案",
+    "back": "proposal documents"
+  },
+  {
+    "front": "研修資料",
+    "back": "training materials"
+  },
+  {
+    "front": "説得力のある説明をする",
+    "back": "delivering effective presentations"
+  },
+  {
+    "front": "印刷物",
+    "back": "printed materials"
+  },
+  {
+    "front": "よりもレイアウトやデザインに特化しており",
+    "back": "It offers more layout and design flexibility than"
+  },
+  {
+    "front": "文字や画像を自由に配置する",
+    "back": "place text and images freely"
+  },
+  {
+    "front": "見た目の美しい資料を作る",
+    "back": "create visually appealing documents"
+  },
+  {
+    "front": "仕事では",
+    "back": "In the workplace"
+  },
+  {
+    "front": "お店のチラシ",
+    "back": "shop flyers"
+  },
+  {
+    "front": "テンプレートが豊富なので",
+    "back": "With a wide range of templates"
+  },
+  {
+    "front": "プロらしい仕上がりにできる",
+    "back": "it enables users to produce professional-quality materials"
+  },
+  {
+    "front": "デザインの知識が少なくても",
+    "back": "even with little design knowledge"
+  }
 ]
