@@ -17,10 +17,32 @@
       background-color: #f9f9f9;
       border-radius: 12px;
     }
+    #buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 0 10px;
+      cursor: pointer;
+      border-radius: 8px;
+      border: 1px solid #666;
+      background-color: #eee;
+    }
+    button:hover {
+      background-color: #ddd;
+    }
   </style>
 </head>
 <body>
   <div id="flashcard">Loading...</div>
+
+  <div id="buttons">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
   <script src="/flashcard-app/app.js"></script>
 </body>
 </html>

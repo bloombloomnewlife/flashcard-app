@@ -3,6 +3,8 @@ let current = 0;
 let showingFront = true;
 
 const card = document.getElementById("flashcard");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
 
 function speakText(text) {
   if (!window.speechSynthesis) return;
@@ -10,7 +12,6 @@ function speakText(text) {
 
   const utterance = new SpeechSynthesisUtterance(text);
 
-  // 言語判定（簡易的に英語のアルファベットなら英語、それ以外は日本語に設定）
   if (/^[\u0000-\u007F]*$/.test(text)) {
     utterance.lang = "en-US";
   } else {
@@ -20,12 +21,19 @@ function speakText(text) {
   speechSynthesis.speak(utterance);
 }
 
+function showCard(index) {
+  if (!flashcards.length) return;
+  current = (index + flashcards.length) % flashcards.length; // ループ対応
+  showingFront = true;
+  card.textContent = flashcards[current].front;
+  speakText(card.textContent);
+}
+
 fetch('/flashcard-app/cards.json')
   .then(res => res.json())
   .then(data => {
     flashcards = data;
-    card.textContent = flashcards[current].front;
-    speakText(card.textContent);
+    showCard(current);
   });
 
 card.addEventListener("click", () => {
@@ -35,5 +43,10 @@ card.addEventListener("click", () => {
   speakText(card.textContent);
 });
 
-// 自動切り替えの代わりに、後でボタン設置もできます。
-// もし自動切り替えを残すなら下記のsetIntervalは削除してください。
+prevBtn.addEventListener("click", () => {
+  showCard(current - 1);
+});
+
+nextBtn.addEventListener("click", () => {
+  showCard(current + 1);
+});
