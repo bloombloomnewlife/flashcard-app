@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Flashcards</title>
+  <style>
+    textarea, input { margin: 5px; padding: 5px; }
+    .card-row { display: flex; align-items: center; margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <h2>Edit Flashcards</h2>
+  <div id="auth">
+    <label>Password: <input type="password" id="password" /></label>
+    <button onclick="checkPassword()">Enter</button>
+  </div>
+
+  <div id="editor" style="display:none;">
+    <h3>Upload CSV</h3>
+    <input type="file" id="csvInput" accept=".csv" />
+    <h3>Add New Card</h3>
+    <input id="newFront" placeholder="Front" />
+    <input id="newBack" placeholder="Back" />
+    <button onclick="addCard()">Add</button>
+
+    <h3>Existing Cards</h3>
+    <button onclick="toggleAll(true)">Check All</button>
+    <button onclick="toggleAll(false)">Uncheck All</button>
+    <button onclick="deleteSelected()">Delete Selected</button>
+
+    <div id="cardList"></div>
+    <br>
+    <button onclick="save()">Save Changes</button>
+    <button onclick="window.location.href='index.html'">Back to Cards</button>
+  </div>
+
+  <script src="edit.js"></script>
+</body>
+</html>

@@ -1,52 +1,44 @@
 let flashcards = [];
 let current = 0;
 let showingFront = true;
-
 const card = document.getElementById("flashcard");
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
 
 function speakText(text) {
-  if (!window.speechSynthesis) return;
-  speechSynthesis.cancel();
-
   const utterance = new SpeechSynthesisUtterance(text);
-
-  if (/^[\u0000-\u007F]*$/.test(text)) {
-    utterance.lang = "en-US";
-  } else {
-    utterance.lang = "ja-JP";
-  }
-
+  utterance.lang = /[ぁ-んァ-ン一-龥]/.test(text) ? "ja-JP" : "en-US";
   speechSynthesis.speak(utterance);
 }
 
-function showCard(index) {
+function displayCard() {
   if (!flashcards.length) return;
-  current = (index + flashcards.length) % flashcards.length; // ループ対応
-  showingFront = true;
-  card.textContent = flashcards[current].front;
-  speakText(card.textContent);
+  const text = showingFront ? flashcards[current].front : flashcards[current].back;
+  card.textContent = text;
+  speakText(text);
 }
 
-fetch('/flashcard-app/cards.json')
+fetch('cards.json')
   .then(res => res.json())
   .then(data => {
     flashcards = data;
-    showCard(current);
+    displayCard();
   });
 
 card.addEventListener("click", () => {
   if (!flashcards.length) return;
   showingFront = !showingFront;
-  card.textContent = showingFront ? flashcards[current].front : flashcards[current].back;
-  speakText(card.textContent);
+  displayCard();
 });
 
-prevBtn.addEventListener("click", () => {
-  showCard(current - 1);
+document.getElementById("prev").addEventListener("click", () => {
+  if (!flashcards.length) return;
+  current = (current - 1 + flashcards.length) % flashcards.length;
+  showingFront = true;
+  displayCard();
 });
 
-nextBtn.addEventListener("click", () => {
-  showCard(current + 1);
+document.getElementById("next").addEventListener("click", () => {
+  if (!flashcards.length) return;
+  current = (current + 1) % flashcards.length;
+  showingFront = true;
+  displayCard();
 });
