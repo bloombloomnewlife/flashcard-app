@@ -1,40 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
   <title>Flashcards</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 20px;
-    }
     #flashcard {
-      width: 80%;
-      max-width: 400px;
+      width: 300px;
       height: 200px;
-      margin: 40px auto;
-      padding: 40px;
+      border: 1px solid #ccc;
+      text-align: center;
+      line-height: 200px;
       font-size: 24px;
-      background-color: #ffffff;
-      border: 2px solid #cccccc;
-      border-radius: 12px;
-      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      margin: 50px auto;
       cursor: pointer;
-      transition: transform 0.3s ease;
+      user-select: none;
+      background-color: #f9f9f9;
+      border-radius: 12px;
     }
-    .buttons {
-      margin-top: 20px;
-    }
-    .buttons button {
-      margin: 0 10px;
-      padding: 10px 20px;
-      font-size: 18px;
-      border: none;
-      border-radius:
+  </style>
+</head>
+<body>
+  <div id="flashcard">Loading...</div>
+  <script src="/flashcard-app/app.js"></script>
+</body>
+</html>

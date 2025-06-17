@@ -4,45 +4,36 @@ let showingFront = true;
 
 const card = document.getElementById("flashcard");
 
-fetch('cards.json')
+function speakText(text) {
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(text);
+
+  // 言語判定（簡易的に英語のアルファベットなら英語、それ以外は日本語に設定）
+  if (/^[\u0000-\u007F]*$/.test(text)) {
+    utterance.lang = "en-US";
+  } else {
+    utterance.lang = "ja-JP";
+  }
+
+  speechSynthesis.speak(utterance);
+}
+
+fetch('/flashcard-app/cards.json')
   .then(res => res.json())
   .then(data => {
     flashcards = data;
-    showCard();
+    card.textContent = flashcards[current].front;
+    speakText(card.textContent);
   });
 
-function showCard() {
-  if (!flashcards.length) return;
-  const content = showingFront ? flashcards[current].front : flashcards[current].back;
-  card.textContent = content;
-  speak(content); // 表示後に自動読み上げ
-}
-
-function nextCard() {
-  if (!flashcards.length) return;
-  if (current < flashcards.length - 1) current++;
-  showingFront = true;
-  showCard();
-}
-
-function prevCard() {
-  if (!flashcards.length) return;
-  if (current > 0) current--;
-  showingFront = true;
-  showCard();
-}
-
-function flipCard() {
+card.addEventListener("click", () => {
   if (!flashcards.length) return;
   showingFront = !showingFront;
-  showCard();
-}
+  card.textContent = showingFront ? flashcards[current].front : flashcards[current].back;
+  speakText(card.textContent);
+});
 
-function speak(text) {
-  if (!text) return;
-  const utterance = new SpeechSynthesisUtterance(text);
-  const isJapanese = /[ぁ-んァ-ン一-龯]/.test(text);
-  utterance.lang = isJapanese ? "ja-JP" : "en-US";
-  speechSynthesis.cancel(); // 前の発話をキャンセル
-  speechSynthesis.speak(utterance);
-}
+// 自動切り替えの代わりに、後でボタン設置もできます。
+// もし自動切り替えを残すなら下記のsetIntervalは削除してください。
