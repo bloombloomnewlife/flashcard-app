@@ -15,6 +15,7 @@ function showCard() {
   if (!flashcards.length) return;
   const content = showingFront ? flashcards[current].front : flashcards[current].back;
   card.textContent = content;
+  speak(content); // 表示後に自動読み上げ
 }
 
 function nextCard() {
@@ -37,14 +38,11 @@ function flipCard() {
   showCard();
 }
 
-function speakCard() {
-  if (!flashcards.length) return;
-  const text = showingFront ? flashcards[current].front : flashcards[current].back;
+function speak(text) {
+  if (!text) return;
   const utterance = new SpeechSynthesisUtterance(text);
-
-  // 日本語か英語か簡易判定
   const isJapanese = /[ぁ-んァ-ン一-龯]/.test(text);
   utterance.lang = isJapanese ? "ja-JP" : "en-US";
-
   speechSynthesis.cancel(); // 前の発話をキャンセル
-  speechSynthesis.speak(
+  speechSynthesis.speak(utterance);
+}
